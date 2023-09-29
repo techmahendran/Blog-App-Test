@@ -8,7 +8,7 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <>
-      <h1 className=" text-2xl font-bold mt-6 text-center md:text-left">
+      <h1 className="text-2xl text-amber-700 font-bold mt-6 text-center md:text-left">
         AboutPage
       </h1>
       <div className="flex justify-between items-center flex-wrap pt-4">

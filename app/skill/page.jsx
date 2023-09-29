@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <div className="flex items-center flex-wrap py-10">
+      <div className="flex items-center flex-wrap py-9">
         <div className="w-[280px] m-3 grow bg-white p-4 rounded-md shadow-lg text-center hover:-translate-y-5 transition">
           <Image
             src={image_1}

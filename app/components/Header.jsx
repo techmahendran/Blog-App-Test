@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="md:flex hidden justify-between space-x-6">
             <li>
               <Link
-                className=" hover:text-[blue] transition-all duration-150"
+                className=" text-white hover:text-[blue] transition-all duration-150"
                 href="/"
               >
                 Home
@@ -40,15 +40,15 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className=" hover:text-[blue] transition-all duration-150"
-                href="/pricing"
+                className=" text-white hover:text-[blue] transition-all duration-150"
+                href="/skill"
               >
                 Skills
               </Link>
             </li>
             <li>
               <Link
-                className=" hover:text-[blue] transition-all duration-150"
+                className=" text-white hover:text-[blue] transition-all duration-150"
                 href="/about"
               >
                 About
@@ -59,7 +59,7 @@ const Header = () => {
                 onClick={sampleTest}
                 className=" text-white bg-sky-500 hover:scale-[1.1] ease-out duration-200 text-[15px] px-2 py-1 rounded-lg"
               >
-                Get Started
+                My Sample
               </button>
             </li>
           </ul>
@@ -81,7 +81,7 @@ const Header = () => {
           id="navBar"
           className={
             isActive
-              ? "fixed left-0 top-0 z-10 w-[450px] h-full bg-black p-2 text-white ease-in-out duration-500"
+              ? "fixed left-0 top-0 z-10 w-[350px] md:w-[450px] h-full bg-black p-2 text-white ease-in-out duration-500 md:hidden"
               : "fixed left-[-100%]"
           }
         >
@@ -103,7 +103,7 @@ const Header = () => {
             <li className="p-3 border-b border-b-gray-400">
               <Link
                 className=" w-full inline-block hover:text-text-color"
-                href="/pricing"
+                href="/skill"
                 onClick={navBtnClick}
               >
                 Skills
