@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="md:flex hidden justify-between space-x-6">
             <li>
               <Link
-                className=" text-white hover:text-[blue] transition-all duration-150"
+                className=" text-white  hover:text-[blue] transition-all duration-150"
                 href="/"
               >
                 Home
@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className=" text-white hover:text-[blue] transition-all duration-150"
+                className=" text-white  hover:text-[blue] transition-all duration-150"
                 href="/skill"
               >
                 Skills
@@ -48,7 +48,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className=" text-white hover:text-[blue] transition-all duration-150"
+                className=" text-white  hover:text-[blue] transition-all duration-150"
                 href="/about"
               >
                 About
@@ -71,9 +71,9 @@ const Header = () => {
           onClick={navBtn}
         >
           {isActive ? (
-            <AiOutlineClose className="absolute z-10 text-white md:text-black" />
+            <AiOutlineClose className="absolute z-10 text-white md:text-black -top-3 sm:right-2 right-2" />
           ) : (
-            <AiOutlineMenu className="absolute z-10 text-white md:text-black" />
+            <AiOutlineMenu className="absolute z-50 text-white -top-3 sm:right-2 right-2 md:text-black" />
           )}
         </div>
 

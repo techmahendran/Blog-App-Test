@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`container px-5 mx-auto min-h-screen overflow-x-hidden ${roboto.className} bg-[#84dd84]`}
+        className={`container px-5 mx-auto min-h-screen overflow-x-hidden ${roboto.className} bg-[lightgreen]`}
       >
         <Header />
 
