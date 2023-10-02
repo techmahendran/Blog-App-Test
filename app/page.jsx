@@ -8,7 +8,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section className="mt-5 p-[110px] text-center bg-[url('./assets/home.jpg')] bg-no-repeat bg-cover bg-center text-white">
+       <section className="mt-5 p-[60px] sm:p-[80px] md:p-[78px] text-center bg-[url('./assets/home.jpg')] bg-no-repeat bg-cover bg-center text-white">
         <h1 className="text-4xl text-center md:text-5xl xl:text-6xl leading-[45px] uppercase md:leading-[75px]">
           I'm Front End Develper and My Sample{" "}
           <span className="text-[#4cc9ce] font-bold">Blog Site</span>
