@@ -81,7 +81,7 @@ const Header = () => {
           id="navBar"
           className={
             isActive
-              ? "fixed left-0 top-0 z-10 w-[350px] md:w-[450px] h-full bg-black p-2 text-white ease-in-out duration-500 md:hidden"
+              ? "fixed left-0 top-0 z-10 w-[350px] sm:w-[300px] xxs:w-[250px] h-full bg-black p-2 text-white ease-in-out duration-500 md:hidden"
               : "fixed left-[-100%]"
           }
         >
